@@ -122,14 +122,14 @@ img {
 }
 
 .heart-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .heart-img {
-    display: block;
-  }
-  
-  .heart-border {
-    pointer-events: none;
-  }
+  position: relative;
+  display: inline-block;
+}
+
+.heart-img {
+  display: block;
+}
+
+.heart-border {
+  pointer-events: none;
+}
