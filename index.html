@@ -5,10 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="SidPro" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Rizz"
-    />
+    <meta name="description" content="Rizz" />
     <link rel="stylesheet" href="./style.css" />
     <!-- icons -->
     <link
@@ -144,7 +141,7 @@
     </div>
   </body>
   <script>
-    var debounce = function (fn, t = 1000) {
+    var debounce = function (fn, t = 2000) {
       let timer;
       return function (...args) {
         clearTimeout(timer);
@@ -298,6 +295,7 @@
         document.body.appendChild(container);
       });
     }
+
     function moveButton() {
       var x =
         Math.random() *
